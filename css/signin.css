@@ -1,0 +1,136 @@
+/* General Styles */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #FFA726, #FF7043);
+    color: white;
+  }
+  
+  /* Container */
+  .container {
+    text-align: center;
+  }
+  
+  /* Logo */
+  .logo {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 800;
+  }
+  
+  /* Card */
+  .card {
+    background: white;
+    color: #333;
+    width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+  }
+  
+  /* Tab Buttons */
+  .toggle-buttons {
+    display: flex;
+    width: 100%;
+    background: #f4f4f9;
+  }
+  
+  .toggle-buttons button {
+    flex: 1;
+    padding: 15px 0;
+    background: #e8e8f3;
+    border: none;
+    color: #333;
+    cursor: pointer;
+    border-bottom: 2px solid #ddd;
+    transition: all 0.3s ease;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 600;
+  }
+  
+  .toggle-buttons button.active {
+    background: white;
+    color: #333;
+    border-bottom: 2px solid #FF7043;
+  }
+  
+  .toggle-buttons button:hover {
+    background: #f0f0f8;
+  }
+  
+  /* Forms */
+  .form {
+    display: none;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .form.active {
+    display: block;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+  }
+
+  .texthigh {
+    color: #FF7043;
+  }
+  
+  p {
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 1.5;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 400;
+  }
+  
+  /* Inputs */
+  input {
+    width: 100%;
+    padding: 10px;
+    margin: 0 0 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 45px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 300;
+  }
+  
+  /* Buttons */
+  .btn {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(135deg, #FFA726, #FF7043);
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 500;
+  }
+  
+  .btn:hover {
+    background: linear-gradient(135deg, #2575fc, #6a11cb);
+  }
+  
